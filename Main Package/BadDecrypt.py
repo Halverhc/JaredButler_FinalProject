@@ -13,14 +13,14 @@ import json
 
 # Function to decrypt the location data
 def BADdecrypt_location():
-    with open('C:\\Users\\hankh\\Desktop\\EncryptedGroupHints Spring 2023 Section 002.json', 'r') as f:
+    with open('EncryptedGroupHints Spring 2023 Section 002.json', 'r') as f:
         encrypted_data = json.load(f)
 
     # Get the encrypted string for Jared Butler
     encrypted_string = encrypted_data['Jared Butler']
 
     # Load the English words list
-    with open('C:/Users/hankh/Desktop/english.txt', 'r') as f:
+    with open('english.txt', 'r') as f:
         english_words = f.read().splitlines()
 
     # Convert each index to an integer and retrieve the corresponding English word
