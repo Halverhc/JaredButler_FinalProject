@@ -23,7 +23,7 @@ pygame.init()
 
 # Set up the display
 screen = pygame.display.set_mode((800, 600))
-pygame.display.set_caption("Team Jared Butler")
+pygame.display.set_caption("Fantastic Journey Group ")
 
 # Set up the fonts
 menu_font = pygame.font.Font(None, 40)

@@ -17,7 +17,7 @@ def decrypt_location():
         encrypted_data = json.load(f)
 
     # Get the encrypted string for Jared Butler
-    encrypted_string = encrypted_data['Jared Butler']
+    encrypted_string = encrypted_data['Ochai Agbaji']
 
     # Load the English words list
     with open('english.txt', 'r') as f:
